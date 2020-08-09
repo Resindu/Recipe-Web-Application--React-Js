@@ -1,0 +1,55 @@
+.aboutcontainer{
+    display: flex;
+
+}
+.textcontainer{
+    margin: 50px;
+}
+    
+
+
+
+
+.aboutmyimg{
+    width:230px;
+    height: 345px;
+    margin-left: 200px;
+    margin-top: 190px;
+    border-radius: 50%;
+
+}
+
+.aboutmetitle{
+    color:#4f7942;
+    padding: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-left: -280px;
+    margin-top: -15px;
+    width: 950px;
+    text-align: center;
+    font-size: 36px;
+}
+.abtmecontentcontainer{
+   background-color: #C0D9AF	;
+   width: 400px;
+   height: 250px;
+   padding-left: 70px;
+   padding-right: 30px;
+   padding-top: 40px;
+   padding-bottom: 80px;
+   font-size:16px;
+   font-weight: 500;
+}
+
+
+.aboutsocialmedia{
+    display: flex;
+    flex-direction: column;
+    margin-left: -270px;
+    margin-top: 170px;
+    height: 350px;
+    width: 200px;
+    padding: 20px;
+    background-color: #fff;
+}

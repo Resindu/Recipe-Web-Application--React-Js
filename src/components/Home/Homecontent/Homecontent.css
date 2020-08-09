@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Rancho&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,900&display=swap');
+
+
+.samplerecipecontainer{
+    background: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 250px;
+    padding-right: 250px;
+    padding-top: 50px;
+    font-family: 'Rancho', cursive;
+}
+.showrecipebox{
+    font-family: 'Rancho', cursive;
+    font-size: 26px;
+
+}
+
+.showrecipeboxtitle{
+    justify-content: center;
+    text-align: center;
+}
+.showrecipeboximage{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
+.viewrecipebtn{
+    display: block;
+    margin: auto auto;
+    width: 200px;
+    height: 50px;
+    background-color: #EAEE3E;
+    border: none;
+    padding: 10px;
+    font-family: 'Rancho', cursive;
+    font-size: 28px;
+    border-radius: 10px;
+
+}
+.viewrecipebtn:hover{
+    background-color: #ADFF2F;
+    color:black;
+}
+.healthyrecipe{
+    background: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 50px;
+    font-family: 'Rancho', cursive;
+    font-size: 26px;
+    margin-top: 40px;
+
+}
+.healthyrecipebox{
+    margin-top: 80px;
+}
+.healthyrecipeimg{
+    width: 200px;
+    height: 200px;
+
+}
+.boxtitle{
+    display: inline-block;
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+}
+.boxtitlerow{
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.viewallbtn{
+    display: inline-block;
+    margin-left: 1050px;
+    background-color: #3B990F;
+    color: #fff;
+    border: 2px solid #3B990F;
+    padding: 10px;
+    width: 110px;
+    height: 50px;
+}
+.viewallbtn:hover{
+    box-shadow: 0px 5px 10px green;
+    color: #ADFF2F;  
+}
+.dietrecipebtn{
+    margin-left: 1110px;
+}

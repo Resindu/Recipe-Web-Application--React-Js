@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:wght@500&family=Rock+Salt&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=PT+Serif:wght@700&family=Rock+Salt&family=Sawarabi+Mincho&display=swap");
+.recipebox{
+    box-shadow: 0px 5px 20px black;
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background:#f3f2ed;
+    align-items: center;
+    min-width: 40%;
+    max-width: 40%;
+    
+    
+    height: auto;
+}
+.recipelabel{
+    text-align: center;
+    margin-top: 10px;
+
+
+}
+.recipelabelingredients{
+    font-family: 'PT Serif', serif;
+    font-size: 26px;
+    }
+.recipelabellist{
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+    color: black;
+    text-align: center;
+   
+}
+.recipename{
+    border-color: black;
+    box-shadow: 0px 5px 10px #006400;
+    padding: 10px;
+    font-size: 25px;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 30px;
+    margin-right: 30px;
+    text-align: center;
+    background-color:yellowgreen;
+
+}

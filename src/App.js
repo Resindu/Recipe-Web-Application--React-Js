@@ -1,26 +1,31 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import Home from './components/Home/Home';
+import Cusinerecipes from './components/Cusinerecipes/Cuisinerecipes';
+import Mealrecipes from './components/Mealrecipes/Mealrecipes';
+import Dishrecipes from './components/Dishrecipes/Dishrecipes';
+import Resultspage from './components/Resultpage/Resultspage';
+import About from './components/About/About';
+import { BrowserRouter as Router, Route } from "react-router-dom";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+
+const App = () => {
+  
+
+  return(
+    <Router>
+     <Route path="/" exact component={Home} />
+     <Route path="/about" exact component={About} />
+      <Route path="/cusinerecipes" component={Cusinerecipes} />
+      <Route path="/mealrecipes" component={Mealrecipes} />
+      <Route path="/dishrecipes" component={Dishrecipes} />
+      <Route path="/results" component={Resultspage} />
+
+
+
+    </Router>
   );
+  
 }
 
 export default App;

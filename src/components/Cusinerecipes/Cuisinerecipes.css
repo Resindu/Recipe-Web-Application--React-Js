@@ -1,0 +1,22 @@
+.recipemenurow{
+    background: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 50px;
+    font-family: 'Rancho', cursive;
+    font-size: 26px;
+    margin-top: 40px;
+
+}
+.healthyrecipebox{
+    display: flex;
+    margin-top: 80px;
+}
+.healthyrecipeimg{
+    width: 200px;
+    height: 200px;
+
+}
