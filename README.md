@@ -1,6 +1,6 @@
 
 You can find this projecct live using following url:
-    https://elated-goodall-6ef807.netlify.app/
+   https://food-recipe-finder-resindu.netlify.app/
 
 ----------------------------------------------------------------
 
